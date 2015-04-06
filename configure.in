@@ -36,7 +36,7 @@ case "$my_arch" in
     mybits="64"
     mybits_install="64"
     ;;
-  *sparc*)
+  *sparc*|sun4u|sun4v)
     mybits="64"
     mybits_install="64"
     is_sparc="yes"
